@@ -1,3 +1,6 @@
+# Fork Details
+ This fork allows raycast to automatically reschedule the tasks you procrasinate on. Current official version must wait 1 day to do this, which is sometimes not practical.
+
 # Reclaim
 
 Reclaim.ai is an AI scheduling app that automatically finds the best time for your meetings, tasks, habits, & breaks.
