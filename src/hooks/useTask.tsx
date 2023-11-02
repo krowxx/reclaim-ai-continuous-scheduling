@@ -140,7 +140,7 @@ const useTask = () => {
   };
 
   useEffect(() => {
-      addTimeToCompletedTasks(15, getAllTasks);
+      addTimeToCompletedTasks(60, getAllTasks);
   }
   , []);
 

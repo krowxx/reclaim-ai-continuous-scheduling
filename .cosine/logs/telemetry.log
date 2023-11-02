@@ -962,3 +962,58 @@ INFO [2023-11-02T12:27:03.931Z]: [CodeIndex.index] Indexed with MetaDB
 INFO [2023-11-02T12:27:03.933Z]: [Engine.indexCode] Indexed code
 INFO [2023-11-02T12:27:03.941Z]: project_reinitialize_success
 INFO [2023-11-02T12:27:03.941Z]: {}
+INFO [2023-11-02T12:35:06.276Z]: project_reinitialize_start
+INFO [2023-11-02T12:35:06.278Z]: {}
+INFO [2023-11-02T12:35:06.327Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:35:06.328Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:35:06.328Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T12:35:06.339Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:35:06.339Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:35:06.339Z]: {"language":"TSX"}
+INFO [2023-11-02T12:35:06.420Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:35:06.421Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:35:06.519Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:35:06.520Z]: {"language":"TSX","percent":100.15204500532158,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:35:06.520Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:35:06.520Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:35:06.520Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:35:06.520Z]: {"language":"TSX"}
+INFO [2023-11-02T12:35:06.520Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:35:08.088Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:35:08.089Z]: {"length":2}
+INFO [2023-11-02T12:35:08.090Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:35:08.090Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:35:08.090Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:35:08.090Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":2,"deleted":2},"index":386}
+INFO [2023-11-02T12:35:08.090Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:35:08.090Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T12:35:08.090Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:35:08.090Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T12:35:08.090Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:35:08.106Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:35:08.106Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:35:08.106Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:35:08.106Z]: {"language":"TSX"}
+INFO [2023-11-02T12:35:08.106Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:35:08.106Z]: {"resuts":2}
+INFO [2023-11-02T12:35:08.282Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:35:08.283Z]: {"resuts":2}
+INFO [2023-11-02T12:35:08.289Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:35:08.301Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:35:08.304Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:35:08.304Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:35:08.319Z]: project_reinitialize_success
+INFO [2023-11-02T12:35:08.319Z]: {}
+INFO [2023-11-02T12:49:09.541Z]: Tracking open event
+INFO [2023-11-02T12:49:09.543Z]: Creating language service
+INFO [2023-11-02T12:49:09.543Z]: Creating settings service
+INFO [2023-11-02T12:49:09.543Z]: Creating workspace service
+INFO [2023-11-02T12:49:09.543Z]: Creating remote AI
+INFO [2023-11-02T12:49:09.543Z]: Creating feedback service
+INFO [2023-11-02T12:49:09.543Z]: Creating share service
+INFO [2023-11-02T12:49:09.543Z]: Creating workspace controller
+INFO [2023-11-02T12:49:09.543Z]: Enabling workspace listeners
+INFO [2023-11-02T12:49:09.543Z]: Creating source
+INFO [2023-11-02T12:49:09.543Z]: Initializing workspace controller
+INFO [2023-11-02T12:49:09.544Z]: opened
+INFO [2023-11-02T12:49:09.544Z]: {}
