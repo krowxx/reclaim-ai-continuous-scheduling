@@ -35,7 +35,9 @@ const useEvent = () => {
 
       if (!eventsResponse || error) throw error;
 
-      // Filter out events that are synced, managed by Reclaim and part of multiple calendars
+  
+
+
       return eventsResponse;
     } catch (error) {
       console.error("Error while fetching events", error);

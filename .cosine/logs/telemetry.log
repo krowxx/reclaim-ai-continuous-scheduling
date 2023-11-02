@@ -12,3 +12,953 @@ INFO [2023-11-02T10:57:18.765Z]: Creating source
 INFO [2023-11-02T10:57:18.765Z]: Initializing workspace controller
 INFO [2023-11-02T10:57:18.766Z]: opened
 INFO [2023-11-02T10:57:18.766Z]: {}
+INFO [2023-11-02T11:29:07.253Z]: Preparing to initialize extension
+INFO [2023-11-02T11:29:08.256Z]: Registering flag observer
+INFO [2023-11-02T11:29:08.256Z]: Navigating to loading page
+INFO [2023-11-02T11:29:08.256Z]: Navigation
+INFO [2023-11-02T11:29:08.256Z]: {"page":"/loading"}
+INFO [2023-11-02T11:29:08.257Z]: Initializing workspace controller
+INFO [2023-11-02T11:29:08.258Z]: Navigating to blank page
+INFO [2023-11-02T11:29:08.258Z]: Creating URI handler
+INFO [2023-11-02T11:29:08.258Z]: Getting auth service props
+INFO [2023-11-02T11:29:08.262Z]: Creating auth service
+INFO [2023-11-02T11:29:08.263Z]: Setting network auth service
+INFO [2023-11-02T11:29:08.263Z]: Creating context store
+INFO [2023-11-02T11:29:08.263Z]: Creating engine
+INFO [2023-11-02T11:29:08.278Z]: Creating vector db
+INFO [2023-11-02T11:29:08.279Z]: Creating sql db
+INFO [2023-11-02T11:29:08.279Z]: Creating config manager
+INFO [2023-11-02T11:29:08.284Z]: Get languages
+INFO [2023-11-02T11:29:08.338Z]: Get Overview
+INFO [2023-11-02T11:29:08.342Z]: Creating code parser
+INFO [2023-11-02T11:29:08.343Z]: Creating code index
+INFO [2023-11-02T11:29:08.351Z]: Creating semantic
+INFO [2023-11-02T11:29:08.351Z]: Creating keyword
+INFO [2023-11-02T11:29:08.351Z]: Creating file search
+INFO [2023-11-02T11:29:08.352Z]: Creating graphs
+INFO [2023-11-02T11:29:08.355Z]: Initialising engine
+INFO [2023-11-02T11:29:08.584Z]: Creating project bot props
+INFO [2023-11-02T11:29:08.584Z]: Creating plan service
+INFO [2023-11-02T11:29:08.585Z]: Creating terms service
+INFO [2023-11-02T11:29:08.585Z]: Creating auth controller
+INFO [2023-11-02T11:29:08.585Z]: Initializing auth controller
+INFO [2023-11-02T11:29:08.585Z]: Checking auth
+INFO [2023-11-02T11:29:08.592Z]: Creating plan controller
+INFO [2023-11-02T11:29:08.592Z]: Initializing plan controller
+INFO [2023-11-02T11:29:09.125Z]: Creating status controller
+INFO [2023-11-02T11:29:09.125Z]: Creating chat bot
+INFO [2023-11-02T11:29:09.128Z]: Creating git service
+INFO [2023-11-02T11:29:09.128Z]: Creating user context
+INFO [2023-11-02T11:29:09.128Z]: Creating search controller
+INFO [2023-11-02T11:29:09.128Z]: Initializing search controller
+INFO [2023-11-02T11:29:09.137Z]: Creating index controller
+INFO [2023-11-02T11:29:09.137Z]: Initializing index controller
+INFO [2023-11-02T11:29:09.137Z]: Creating settings controller
+INFO [2023-11-02T11:29:09.137Z]: Initializing settings controller
+INFO [2023-11-02T11:29:09.138Z]: Creating navigation controller
+INFO [2023-11-02T11:29:09.138Z]: Initializing navigation controller
+INFO [2023-11-02T11:29:09.138Z]: Registering auth service with auth controller
+INFO [2023-11-02T11:29:09.138Z]: Calculating navigation
+INFO [2023-11-02T11:29:09.162Z]: Navigation
+INFO [2023-11-02T11:29:09.162Z]: {"page":"/auth/login"}
+INFO [2023-11-02T11:29:09.163Z]: Fully initialized!
+INFO [2023-11-02T11:29:09.166Z]: extension_initialized
+INFO [2023-11-02T11:29:09.166Z]: {"timeToInit":1918}
+INFO [2023-11-02T11:29:27.403Z]: login
+INFO [2023-11-02T11:29:27.403Z]: {"provider":"Github"}
+INFO [2023-11-02T11:29:27.418Z]: Set User: AruF8PNwg4aya5E3206WYQYuuc33
+INFO [2023-11-02T11:29:27.446Z]: [Engine.isIndexed] Not indexed
+INFO [2023-11-02T11:29:27.446Z]: {"configIndexed":false,"ignoreIndexed":false,"semanticIndexed":false,"keywordIndexed":true,"graphIndexed":true,"overviewIndexed":false}
+INFO [2023-11-02T11:29:27.448Z]: Navigation
+INFO [2023-11-02T11:29:27.448Z]: {"page":"/initialize/project"}
+INFO [2023-11-02T11:29:47.881Z]: project_languages
+INFO [2023-11-02T11:29:47.881Z]: {"languages":["TSX"]}
+INFO [2023-11-02T11:29:47.909Z]: Navigation
+INFO [2023-11-02T11:29:47.909Z]: {"page":"/initialize/ignore"}
+INFO [2023-11-02T11:29:52.303Z]: Navigation
+INFO [2023-11-02T11:29:52.303Z]: {"page":"/initialize/progress"}
+INFO [2023-11-02T11:29:52.326Z]: Found 15 files
+INFO [2023-11-02T11:29:52.331Z]: project_initialize_start
+INFO [2023-11-02T11:29:52.331Z]: {"name":"reclaim-ai","languages":["TSX","TypeScript","JSON","Markdown"],"ignored":["*.d.ts","*.min.js",".cache",".changeset",".cosine",".devcontainer",".expo",".expo-settings",".expo-shared",".git",".gitsecret",".husky",".idea",".next",".nyc_output",".parcel-cache",".pnp",".pnp.js",".storybook",".turbo",".versionbot",".vs",".vscode",".yarn",".yarnrc","_generated","build","coverage","dist","logs","node_modules","out"]}
+INFO [2023-11-02T11:29:52.751Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T11:29:52.751Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T11:29:52.751Z]: {"added":332,"deleted":0}
+INFO [2023-11-02T11:29:52.936Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T11:29:52.936Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:52.936Z]: {"language":"TSX"}
+INFO [2023-11-02T11:29:53.041Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.041Z]: {"language":"TSX","percent":6.666666666666667,"file":"src/list-tasks.tsx"}
+INFO [2023-11-02T11:29:53.052Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.052Z]: {"language":"TSX","percent":13.333333333333334,"file":"src/quick-task.tsx"}
+INFO [2023-11-02T11:29:53.054Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.054Z]: {"language":"TSX","percent":20,"file":"src/join-meeting.tsx"}
+INFO [2023-11-02T11:29:53.089Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.089Z]: {"language":"TSX","percent":26.666666666666668,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:29:53.094Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.094Z]: {"language":"TSX","percent":33.33333333333333,"file":"src/hooks/useSchedulingLinks.tsx"}
+INFO [2023-11-02T11:29:53.098Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.098Z]: {"language":"TSX","percent":40,"file":"src/hooks/useDebounce.tsx"}
+INFO [2023-11-02T11:29:53.099Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.099Z]: {"language":"TSX","percent":46.666666666666664,"file":"src/hooks/useApi.tsx"}
+INFO [2023-11-02T11:29:53.103Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.103Z]: {"language":"TSX","percent":53.333333333333336,"file":"src/hooks/useInterpreter.tsx"}
+INFO [2023-11-02T11:29:53.108Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.108Z]: {"language":"TSX","percent":60,"file":"src/hooks/useTimePolicy.tsx"}
+INFO [2023-11-02T11:29:53.114Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.114Z]: {"language":"TSX","percent":66.66666666666666,"file":"src/hooks/useUser.tsx"}
+INFO [2023-11-02T11:29:53.136Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.136Z]: {"language":"TSX","percent":73.33333333333333,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T11:29:53.175Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.175Z]: {"language":"TSX","percent":80,"file":"src/notifications.tsx"}
+INFO [2023-11-02T11:29:53.204Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.204Z]: {"language":"TSX","percent":86.66666666666667,"file":"src/task-form.tsx"}
+INFO [2023-11-02T11:29:53.243Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.244Z]: {"language":"TSX","percent":93.33333333333333,"file":"src/my-calendar.tsx"}
+INFO [2023-11-02T11:29:53.264Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:29:53.264Z]: {"language":"TSX","percent":100,"file":"src/scheduling-links.tsx"}
+INFO [2023-11-02T11:29:53.714Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.714Z]: {"language":"TSX","percent":21.29032258064516,"file":"src/list-tasks.tsx"}
+INFO [2023-11-02T11:29:53.771Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.771Z]: {"language":"TSX","percent":25.047438330170777,"file":"src/quick-task.tsx"}
+INFO [2023-11-02T11:29:53.779Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.779Z]: {"language":"TSX","percent":26.489563567362428,"file":"src/join-meeting.tsx"}
+INFO [2023-11-02T11:29:53.902Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.902Z]: {"language":"TSX","percent":35.40796963946869,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:29:53.916Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.916Z]: {"language":"TSX","percent":36.73624288425047,"file":"src/hooks/useSchedulingLinks.tsx"}
+INFO [2023-11-02T11:29:53.925Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.926Z]: {"language":"TSX","percent":37.83681214421252,"file":"src/hooks/useDebounce.tsx"}
+INFO [2023-11-02T11:29:53.930Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.930Z]: {"language":"TSX","percent":38.70967741935484,"file":"src/hooks/useApi.tsx"}
+INFO [2023-11-02T11:29:53.942Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.942Z]: {"language":"TSX","percent":39.84819734345351,"file":"src/hooks/useInterpreter.tsx"}
+INFO [2023-11-02T11:29:53.955Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:53.956Z]: {"language":"TSX","percent":41.138519924098674,"file":"src/hooks/useTimePolicy.tsx"}
+INFO [2023-11-02T11:29:54.006Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:54.006Z]: {"language":"TSX","percent":44.0607210626186,"file":"src/hooks/useUser.tsx"}
+INFO [2023-11-02T11:29:54.090Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:54.090Z]: {"language":"TSX","percent":49.791271347248575,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T11:29:54.472Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:54.472Z]: {"language":"TSX","percent":61.29032258064516,"file":"src/notifications.tsx"}
+INFO [2023-11-02T11:29:54.714Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:54.714Z]: {"language":"TSX","percent":77.98861480075901,"file":"src/task-form.tsx"}
+INFO [2023-11-02T11:29:55.179Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:55.179Z]: {"language":"TSX","percent":91.42314990512334,"file":"src/my-calendar.tsx"}
+INFO [2023-11-02T11:29:55.328Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:55.328Z]: {"language":"TSX","percent":100.37950664136623,"file":"src/scheduling-links.tsx"}
+INFO [2023-11-02T11:29:55.328Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:29:55.328Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T11:29:55.328Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T11:29:55.328Z]: {"language":"TSX"}
+INFO [2023-11-02T11:29:55.328Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T11:30:01.455Z]: Tokens for Overview Summary
+INFO [2023-11-02T11:30:01.455Z]: {"projectName":4,"languages":8,"likelyLibraries":0,"code":2037,"nonCode":0,"total":2216}
+INFO [2023-11-02T11:30:02.627Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T11:30:02.627Z]: {"length":332}
+INFO [2023-11-02T11:30:02.628Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T11:30:02.629Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T11:30:02.629Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T11:30:02.629Z]: {"files":{"added":15,"changed":0,"deleted":0},"components":{"added":332,"deleted":0},"index":1}
+INFO [2023-11-02T11:30:02.629Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T11:30:02.629Z]: {"added":332,"deleted":0}
+INFO [2023-11-02T11:30:02.630Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T11:30:02.630Z]: {"embeddingsToDelete":0}
+INFO [2023-11-02T11:30:02.630Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T11:30:02.676Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T11:30:02.677Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T11:30:02.677Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T11:30:02.677Z]: {"language":"TSX"}
+INFO [2023-11-02T11:30:02.685Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T11:30:02.685Z]: {"resuts":332}
+INFO [2023-11-02T11:30:02.791Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T11:30:02.890Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T11:30:02.891Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T11:30:02.922Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T11:30:02.922Z]: {"resuts":332}
+INFO [2023-11-02T11:30:02.923Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T11:30:33.115Z]: project_initialize_success
+INFO [2023-11-02T11:30:33.115Z]: {"name":"reclaim-ai","languages":["TSX","TypeScript","JSON","Markdown"],"ignored":["*.d.ts","*.min.js",".cache",".changeset",".cosine",".devcontainer",".expo",".expo-settings",".expo-shared",".git",".gitsecret",".husky",".idea",".next",".nyc_output",".parcel-cache",".pnp",".pnp.js",".storybook",".turbo",".versionbot",".vs",".vscode",".yarn",".yarnrc","_generated","build","coverage","dist","logs","node_modules","out"]}
+INFO [2023-11-02T11:32:36.176Z]: question_start
+INFO [2023-11-02T11:32:36.176Z]: {"prompt":"how can i make it so that when loadevents is loaded, it checks the status of task related to the event, if the task is scheduled, then add 15 minutes, do this for all tasks everytime loadevents is used"}
+INFO [2023-11-02T11:32:37.606Z]: tool_selected
+INFO [2023-11-02T11:32:37.606Z]: {"tool":"ideate"}
+INFO [2023-11-02T11:33:08.074Z]: question_success
+INFO [2023-11-02T11:33:08.075Z]: {"prompt":"how can i make it so that when loadevents is loaded, it checks the status of task related to the event, if the task is scheduled, then add 15 minutes, do this for all tasks everytime loadevents is used"}
+INFO [2023-11-02T11:42:19.635Z]: question_start
+INFO [2023-11-02T11:42:19.635Z]: {"prompt":"export type TaskStatus = \"NEW\" | \"SCHEDULED\" | \"IN_PROGRESS\" | \"COMPLETE\" | \"CANCELLED\" | \"ARCHIVED\";\n\nexport interface Task {\n  id: number;\n  title: string;\n  notes: string;\n  eventCategory: string;\n  eventSubType: string;\n  status: TaskStatus;\n  timeChunksRequired: number;\n  timeChunksSpent: number;\n  timeChunksRemaining: number;\n  minChunkSize: number;\n  maxChunkSize: number;\n  alwaysPrivate: boolean;\n  deleted: boolean;\n  index: number;\n  due: string;\n  created: string;\n  updated: string;\n  finished: string;\n  snoozeUntil: string;\n  adjusted: boolean;\n  atRisk: boolean;\n  priority: string;\n  onDeck: boolean;\n  instances: Array<{\n    taskId: number;\n    eventId: string;\n    eventKey: string;\n    status: string;\n    start: string;\n    end: string;\n    index: number;\n    pinned: boolean;\n  }>;\n  timeSchemeId: string;\n  type: string;\n  recurringAssignmentType: string;\n}\n"}
+INFO [2023-11-02T11:42:41.744Z]: question_success
+INFO [2023-11-02T11:42:41.744Z]: {"prompt":"export type TaskStatus = \"NEW\" | \"SCHEDULED\" | \"IN_PROGRESS\" | \"COMPLETE\" | \"CANCELLED\" | \"ARCHIVED\";\n\nexport interface Task {\n  id: number;\n  title: string;\n  notes: string;\n  eventCategory: string;\n  eventSubType: string;\n  status: TaskStatus;\n  timeChunksRequired: number;\n  timeChunksSpent: number;\n  timeChunksRemaining: number;\n  minChunkSize: number;\n  maxChunkSize: number;\n  alwaysPrivate: boolean;\n  deleted: boolean;\n  index: number;\n  due: string;\n  created: string;\n  updated: string;\n  finished: string;\n  snoozeUntil: string;\n  adjusted: boolean;\n  atRisk: boolean;\n  priority: string;\n  onDeck: boolean;\n  instances: Array<{\n    taskId: number;\n    eventId: string;\n    eventKey: string;\n    status: string;\n    start: string;\n    end: string;\n    index: number;\n    pinned: boolean;\n  }>;\n  timeSchemeId: string;\n  type: string;\n  recurringAssignmentType: string;\n}\n"}
+INFO [2023-11-02T11:43:20.217Z]: question_start
+INFO [2023-11-02T11:43:20.218Z]: {"prompt":"how can i make it so that when loadevents is loaded, it checks the status of task related to the event, if the task is scheduled, then add 15 minutes, do this for all tasks everytime loadevents is used\n\nexport type TaskStatus = \"NEW\" | \"SCHEDULED\" | \"IN_PROGRESS\" | \"COMPLETE\" | \"CANCELLED\" | \"ARCHIVED\";\n\nexport interface Task {\n  id: number;\n  title: string;\n  notes: string;\n  eventCategory: string;\n  eventSubType: string;\n  status: TaskStatus;\n  timeChunksRequired: number;\n  timeChunksSpent: number;\n  timeChunksRemaining: number;\n  minChunkSize: number;\n  maxChunkSize: number;\n  alwaysPrivate: boolean;\n  deleted: boolean;\n  index: number;\n  due: string;\n  created: string;\n  updated: string;\n  finished: string;\n  snoozeUntil: string;\n  adjusted: boolean;\n  atRisk: boolean;\n  priority: string;\n  onDeck: boolean;\n  instances: Array<{\n    taskId: number;\n    eventId: string;\n    eventKey: string;\n    status: string;\n    start: string;\n    end: string;\n    index: number;\n    pinned: boolean;\n  }>;\n  timeSchemeId: string;\n  type: string;\n  recurringAssignmentType: string;\n}\n\n\nexport enum ReclaimEventTypeEnum {\n  USER = \"USER\",\n  SYNC = \"SYNC\",\n  HABITASSIGNMENT = \"HABIT_ASSIGNMENT\",\n  ONEONONEASSIGNMENT = \"ONE_ON_ONE_ASSIGNMENT\",\n  TASKASSIGNMENT = \"TASK_ASSIGNMENT\",\n  CONFBUFFER = \"CONF_BUFFER\",\n  TRAVELBUFFER = \"TRAVEL_BUFFER\",\n  SCHEDULINGLINKMEETING = \"SCHEDULING_LINK_MEETING\",\n  UNKNOWN = \"UNKNOWN\",\n}\n\nexport enum EventResponseStatusEnum {\n  None = \"None\",\n  Organizer = \"Organizer\",\n  Accepted = \"Accepted\",\n  Declined = \"Declined\",\n  TentativelyAccepted = \"TentativelyAccepted\",\n  NotResponded = \"NotResponded\",\n}\n\nexport type EventResponseStatusType = `${EventResponseStatusEnum}`;\n\nexport type ReclaimEventType = `${ReclaimEventTypeEnum}`;\n\nexport enum AssistType {\n  TASK = \"TASK\",\n  CUSTOMDAILY = \"CUSTOM_DAILY\",\n  CATCHUPAM = \"CATCHUP_AM\",\n  CATCHUPPM = \"CATCHUP_PM\",\n  LUNCH = \"LUNCH\",\n  FOCUS = \"FOCUS\",\n  TRAVELPRE = \"TRAVEL_PRE\",\n  TRAVELPOST = \"TRAVEL_POST\",\n  CONBUF = \"CONBUF\",\n}\n\nexport enum AssistStatus {\n  CONTROLLED = \"CONTROLLED\",\n  RELEASED = \"RELEASED\",\n  ARCHIVED = \"ARCHIVED\",\n}\n\nexport enum LockState {\n  MANUALLYLOCKED = \"MANUALLY_LOCKED\",\n  ADJUSTED = \"ADJUSTED\",\n  UPCOMINGWINDOW = \"UPCOMING_WINDOW\",\n  MANUALLYUNLOCKED = \"MANUALLY_UNLOCKED\",\n  DELETED = \"DELETED\",\n  DECLINED = \"DECLINED\",\n  INTHEPAST = \"IN_THE_PAST\",\n}\n\nexport interface AssistPolicyOverride {\n  windowStart: string;\n  idealTime: string;\n  windowEnd: string;\n  durationMin: number;\n  durationMax: number;\n  forceDefend: boolean;\n}\n\nexport enum RecurringAssignmentType {\n  ONEONONE = \"ONE_ON_ONE\",\n  DAILYHABIT = \"DAILY_HABIT\",\n  TASK = \"TASK\",\n}\n\nexport interface AssistDetails {\n  type?: AssistType;\n  customHabit?: boolean;\n  habitOrTask?: boolean;\n  task?: boolean;\n  conferenceBuffer?: boolean;\n  status?: AssistStatus;\n\n  /** The source event id for a travel assist event. */\n  travelNewEventId?: string | null;\n\n  /** The source event id for a conference (decompression time) event. */\n  conferenceEventId?: string | null;\n  lastControlledUpdate?: string;\n  lastControlledHash?: number;\n  defended?: boolean;\n  pinned?: boolean;\n  lockState?: LockState | null;\n  dailyHabitId?: number | null;\n  taskId?: number | null;\n  taskIndex?: number | null;\n  policyOverride?: AssistPolicyOverride | null;\n  lastManualAdjustment?: string;\n  recurringAssignmentType?: RecurringAssignmentType;\n  eventType?: ReclaimEventType;\n  assistReferenceValid?: boolean;\n}\n\nexport interface Event {\n  allocatedTimeChunks: number;\n  assist?: AssistDetails;\n  sourceDetails?: {\n    calendarId: number;\n    eventId: string;\n    etag: string;\n    writable: boolean;\n    eventKey: string;\n    base64Id: string;\n    url: string;\n    title: string;\n  };\n  calendarId: number;\n  category: string;\n  color:\n    | \"NONE\"\n    | \"LAVENDER\"\n    | \"SAGE\"\n    | \"GRAPE\"\n    | \"FLAMINGO\"\n    | \"BANANA\"\n    | \"TANGERINE\"\n    | \"PEACOCK\"\n    | \"GRAPHITE\"\n    | \"BLUEBERRY\"\n    | \"BASIL\"\n    | \"TOMATO\";\n  conferenceCall: boolean;\n  etag: string;\n  eventEnd: string;\n  eventId: string;\n  eventStart: string;\n  free: boolean;\n  key: string;\n  numAttendees: number;\n  onlineMeetingUrl: string;\n  organizer: string;\n  personalSync: boolean;\n  private: boolean;\n  public: boolean;\n  published: boolean;\n  reclaimEventType: string;\n  reclaimManaged: boolean;\n  recurring: boolean;\n  recurringException: boolean;\n  recurringInstance: boolean;\n  requiresTravel: boolean;\n  rsvpStatus: EventResponseStatusType;\n  scoredType: string;\n  status: string;\n  subType: string;\n  timeChunks: number;\n  title: string;\n  titleSeenByOthers: string;\n  type: string;\n  underAssistControl: boolean;\n  updated: string;\n  version: string;\n}\n"}
+INFO [2023-11-02T11:43:37.086Z]: question_success
+INFO [2023-11-02T11:43:37.086Z]: {"prompt":"how can i make it so that when loadevents is loaded, it checks the status of task related to the event, if the task is scheduled, then add 15 minutes, do this for all tasks everytime loadevents is used\n\nexport type TaskStatus = \"NEW\" | \"SCHEDULED\" | \"IN_PROGRESS\" | \"COMPLETE\" | \"CANCELLED\" | \"ARCHIVED\";\n\nexport interface Task {\n  id: number;\n  title: string;\n  notes: string;\n  eventCategory: string;\n  eventSubType: string;\n  status: TaskStatus;\n  timeChunksRequired: number;\n  timeChunksSpent: number;\n  timeChunksRemaining: number;\n  minChunkSize: number;\n  maxChunkSize: number;\n  alwaysPrivate: boolean;\n  deleted: boolean;\n  index: number;\n  due: string;\n  created: string;\n  updated: string;\n  finished: string;\n  snoozeUntil: string;\n  adjusted: boolean;\n  atRisk: boolean;\n  priority: string;\n  onDeck: boolean;\n  instances: Array<{\n    taskId: number;\n    eventId: string;\n    eventKey: string;\n    status: string;\n    start: string;\n    end: string;\n    index: number;\n    pinned: boolean;\n  }>;\n  timeSchemeId: string;\n  type: string;\n  recurringAssignmentType: string;\n}\n\n\nexport enum ReclaimEventTypeEnum {\n  USER = \"USER\",\n  SYNC = \"SYNC\",\n  HABITASSIGNMENT = \"HABIT_ASSIGNMENT\",\n  ONEONONEASSIGNMENT = \"ONE_ON_ONE_ASSIGNMENT\",\n  TASKASSIGNMENT = \"TASK_ASSIGNMENT\",\n  CONFBUFFER = \"CONF_BUFFER\",\n  TRAVELBUFFER = \"TRAVEL_BUFFER\",\n  SCHEDULINGLINKMEETING = \"SCHEDULING_LINK_MEETING\",\n  UNKNOWN = \"UNKNOWN\",\n}\n\nexport enum EventResponseStatusEnum {\n  None = \"None\",\n  Organizer = \"Organizer\",\n  Accepted = \"Accepted\",\n  Declined = \"Declined\",\n  TentativelyAccepted = \"TentativelyAccepted\",\n  NotResponded = \"NotResponded\",\n}\n\nexport type EventResponseStatusType = `${EventResponseStatusEnum}`;\n\nexport type ReclaimEventType = `${ReclaimEventTypeEnum}`;\n\nexport enum AssistType {\n  TASK = \"TASK\",\n  CUSTOMDAILY = \"CUSTOM_DAILY\",\n  CATCHUPAM = \"CATCHUP_AM\",\n  CATCHUPPM = \"CATCHUP_PM\",\n  LUNCH = \"LUNCH\",\n  FOCUS = \"FOCUS\",\n  TRAVELPRE = \"TRAVEL_PRE\",\n  TRAVELPOST = \"TRAVEL_POST\",\n  CONBUF = \"CONBUF\",\n}\n\nexport enum AssistStatus {\n  CONTROLLED = \"CONTROLLED\",\n  RELEASED = \"RELEASED\",\n  ARCHIVED = \"ARCHIVED\",\n}\n\nexport enum LockState {\n  MANUALLYLOCKED = \"MANUALLY_LOCKED\",\n  ADJUSTED = \"ADJUSTED\",\n  UPCOMINGWINDOW = \"UPCOMING_WINDOW\",\n  MANUALLYUNLOCKED = \"MANUALLY_UNLOCKED\",\n  DELETED = \"DELETED\",\n  DECLINED = \"DECLINED\",\n  INTHEPAST = \"IN_THE_PAST\",\n}\n\nexport interface AssistPolicyOverride {\n  windowStart: string;\n  idealTime: string;\n  windowEnd: string;\n  durationMin: number;\n  durationMax: number;\n  forceDefend: boolean;\n}\n\nexport enum RecurringAssignmentType {\n  ONEONONE = \"ONE_ON_ONE\",\n  DAILYHABIT = \"DAILY_HABIT\",\n  TASK = \"TASK\",\n}\n\nexport interface AssistDetails {\n  type?: AssistType;\n  customHabit?: boolean;\n  habitOrTask?: boolean;\n  task?: boolean;\n  conferenceBuffer?: boolean;\n  status?: AssistStatus;\n\n  /** The source event id for a travel assist event. */\n  travelNewEventId?: string | null;\n\n  /** The source event id for a conference (decompression time) event. */\n  conferenceEventId?: string | null;\n  lastControlledUpdate?: string;\n  lastControlledHash?: number;\n  defended?: boolean;\n  pinned?: boolean;\n  lockState?: LockState | null;\n  dailyHabitId?: number | null;\n  taskId?: number | null;\n  taskIndex?: number | null;\n  policyOverride?: AssistPolicyOverride | null;\n  lastManualAdjustment?: string;\n  recurringAssignmentType?: RecurringAssignmentType;\n  eventType?: ReclaimEventType;\n  assistReferenceValid?: boolean;\n}\n\nexport interface Event {\n  allocatedTimeChunks: number;\n  assist?: AssistDetails;\n  sourceDetails?: {\n    calendarId: number;\n    eventId: string;\n    etag: string;\n    writable: boolean;\n    eventKey: string;\n    base64Id: string;\n    url: string;\n    title: string;\n  };\n  calendarId: number;\n  category: string;\n  color:\n    | \"NONE\"\n    | \"LAVENDER\"\n    | \"SAGE\"\n    | \"GRAPE\"\n    | \"FLAMINGO\"\n    | \"BANANA\"\n    | \"TANGERINE\"\n    | \"PEACOCK\"\n    | \"GRAPHITE\"\n    | \"BLUEBERRY\"\n    | \"BASIL\"\n    | \"TOMATO\";\n  conferenceCall: boolean;\n  etag: string;\n  eventEnd: string;\n  eventId: string;\n  eventStart: string;\n  free: boolean;\n  key: string;\n  numAttendees: number;\n  onlineMeetingUrl: string;\n  organizer: string;\n  personalSync: boolean;\n  private: boolean;\n  public: boolean;\n  published: boolean;\n  reclaimEventType: string;\n  reclaimManaged: boolean;\n  recurring: boolean;\n  recurringException: boolean;\n  recurringInstance: boolean;\n  requiresTravel: boolean;\n  rsvpStatus: EventResponseStatusType;\n  scoredType: string;\n  status: string;\n  subType: string;\n  timeChunks: number;\n  title: string;\n  titleSeenByOthers: string;\n  type: string;\n  underAssistControl: boolean;\n  updated: string;\n  version: string;\n}\n"}
+INFO [2023-11-02T11:45:13.808Z]: question_start
+INFO [2023-11-02T11:45:13.808Z]: {"prompt":"export enum ReclaimEventTypeEnum {\n  USER = \"USER\",\n  SYNC = \"SYNC\",\n  HABITASSIGNMENT = \"HABIT_ASSIGNMENT\",\n  ONEONONEASSIGNMENT = \"ONE_ON_ONE_ASSIGNMENT\",\n  TASKASSIGNMENT = \"TASK_ASSIGNMENT\",\n  CONFBUFFER = \"CONF_BUFFER\",\n  TRAVELBUFFER = \"TRAVEL_BUFFER\",\n  SCHEDULINGLINKMEETING = \"SCHEDULING_LINK_MEETING\",\n  UNKNOWN = \"UNKNOWN\",\n}\n\nexport enum EventResponseStatusEnum {\n  None = \"None\",\n  Organizer = \"Organizer\",\n  Accepted = \"Accepted\",\n  Declined = \"Declined\",\n  TentativelyAccepted = \"TentativelyAccepted\",\n  NotResponded = \"NotResponded\",\n}\n\nexport type EventResponseStatusType = `${EventResponseStatusEnum}`;\n\nexport type ReclaimEventType = `${ReclaimEventTypeEnum}`;\n\nexport enum AssistType {\n  TASK = \"TASK\",\n  CUSTOMDAILY = \"CUSTOM_DAILY\",\n  CATCHUPAM = \"CATCHUP_AM\",\n  CATCHUPPM = \"CATCHUP_PM\",\n  LUNCH = \"LUNCH\",\n  FOCUS = \"FOCUS\",\n  TRAVELPRE = \"TRAVEL_PRE\",\n  TRAVELPOST = \"TRAVEL_POST\",\n  CONBUF = \"CONBUF\",\n}\n\nexport enum AssistStatus {\n  CONTROLLED = \"CONTROLLED\",\n  RELEASED = \"RELEASED\",\n  ARCHIVED = \"ARCHIVED\",\n}\n\nexport enum LockState {\n  MANUALLYLOCKED = \"MANUALLY_LOCKED\",\n  ADJUSTED = \"ADJUSTED\",\n  UPCOMINGWINDOW = \"UPCOMING_WINDOW\",\n  MANUALLYUNLOCKED = \"MANUALLY_UNLOCKED\",\n  DELETED = \"DELETED\",\n  DECLINED = \"DECLINED\",\n  INTHEPAST = \"IN_THE_PAST\",\n}\n\nexport interface AssistPolicyOverride {\n  windowStart: string;\n  idealTime: string;\n  windowEnd: string;\n  durationMin: number;\n  durationMax: number;\n  forceDefend: boolean;\n}\n\nexport enum RecurringAssignmentType {\n  ONEONONE = \"ONE_ON_ONE\",\n  DAILYHABIT = \"DAILY_HABIT\",\n  TASK = \"TASK\",\n}\n\nexport interface AssistDetails {\n  type?: AssistType;\n  customHabit?: boolean;\n  habitOrTask?: boolean;\n  task?: boolean;\n  conferenceBuffer?: boolean;\n  status?: AssistStatus;\n\n  /** The source event id for a travel assist event. */\n  travelNewEventId?: string | null;\n\n  /** The source event id for a conference (decompression time) event. */\n  conferenceEventId?: string | null;\n  lastControlledUpdate?: string;\n  lastControlledHash?: number;\n  defended?: boolean;\n  pinned?: boolean;\n  lockState?: LockState | null;\n  dailyHabitId?: number | null;\n  taskId?: number | null;\n  taskIndex?: number | null;\n  policyOverride?: AssistPolicyOverride | null;\n  lastManualAdjustment?: string;\n  recurringAssignmentType?: RecurringAssignmentType;\n  eventType?: ReclaimEventType;\n  assistReferenceValid?: boolean;\n}\n\nexport interface Event {\n  allocatedTimeChunks: number;\n  assist?: AssistDetails;\n  sourceDetails?: {\n    calendarId: number;\n    eventId: string;\n    etag: string;\n    writable: boolean;\n    eventKey: string;\n    base64Id: string;\n    url: string;\n    title: string;\n  };\n  calendarId: number;\n  category: string;\n  color:\n    | \"NONE\"\n    | \"LAVENDER\"\n    | \"SAGE\"\n    | \"GRAPE\"\n    | \"FLAMINGO\"\n    | \"BANANA\"\n    | \"TANGERINE\"\n    | \"PEACOCK\"\n    | \"GRAPHITE\"\n    | \"BLUEBERRY\"\n    | \"BASIL\"\n    | \"TOMATO\";\n  conferenceCall: boolean;\n  etag: string;\n  eventEnd: string;\n  eventId: string;\n  eventStart: string;\n  free: boolean;\n  key: string;\n  numAttendees: number;\n  onlineMeetingUrl: string;\n  organizer: string;\n  personalSync: boolean;\n  private: boolean;\n  public: boolean;\n  published: boolean;\n  reclaimEventType: string;\n  reclaimManaged: boolean;\n  recurring: boolean;\n  recurringException: boolean;\n  recurringInstance: boolean;\n  requiresTravel: boolean;\n  rsvpStatus: EventResponseStatusType;\n  scoredType: string;\n  status: string;\n  subType: string;\n  timeChunks: number;\n  title: string;\n  titleSeenByOthers: string;\n  type: string;\n  underAssistControl: boolean;\n  updated: string;\n  version: string;\n}\n\nexport type TaskStatus = \"NEW\" | \"SCHEDULED\" | \"IN_PROGRESS\" | \"COMPLETE\" | \"CANCELLED\" | \"ARCHIVED\";\n\nexport interface Task {\n  id: number;\n  title: string;\n  notes: string;\n  eventCategory: string;\n  eventSubType: string;\n  status: TaskStatus;\n  timeChunksRequired: number;\n  timeChunksSpent: number;\n  timeChunksRemaining: number;\n  minChunkSize: number;\n  maxChunkSize: number;\n  alwaysPrivate: boolean;\n  deleted: boolean;\n  index: number;\n  due: string;\n  created: string;\n  updated: string;\n  finished: string;\n  snoozeUntil: string;\n  adjusted: boolean;\n  atRisk: boolean;\n  priority: string;\n  onDeck: boolean;\n  instances: Array<{\n    taskId: number;\n    eventId: string;\n    eventKey: string;\n    status: string;\n    start: string;\n    end: string;\n    index: number;\n    pinned: boolean;\n  }>;\n  timeSchemeId: string;\n  type: string;\n  recurringAssignmentType: string;\n}\n\n\nWhen loadevents is called inside of mycalendar, it should check if a task is scheduled, if yes it should add 30 minutes to it"}
+INFO [2023-11-02T11:45:32.573Z]: question_success
+INFO [2023-11-02T11:45:32.573Z]: {"prompt":"export enum ReclaimEventTypeEnum {\n  USER = \"USER\",\n  SYNC = \"SYNC\",\n  HABITASSIGNMENT = \"HABIT_ASSIGNMENT\",\n  ONEONONEASSIGNMENT = \"ONE_ON_ONE_ASSIGNMENT\",\n  TASKASSIGNMENT = \"TASK_ASSIGNMENT\",\n  CONFBUFFER = \"CONF_BUFFER\",\n  TRAVELBUFFER = \"TRAVEL_BUFFER\",\n  SCHEDULINGLINKMEETING = \"SCHEDULING_LINK_MEETING\",\n  UNKNOWN = \"UNKNOWN\",\n}\n\nexport enum EventResponseStatusEnum {\n  None = \"None\",\n  Organizer = \"Organizer\",\n  Accepted = \"Accepted\",\n  Declined = \"Declined\",\n  TentativelyAccepted = \"TentativelyAccepted\",\n  NotResponded = \"NotResponded\",\n}\n\nexport type EventResponseStatusType = `${EventResponseStatusEnum}`;\n\nexport type ReclaimEventType = `${ReclaimEventTypeEnum}`;\n\nexport enum AssistType {\n  TASK = \"TASK\",\n  CUSTOMDAILY = \"CUSTOM_DAILY\",\n  CATCHUPAM = \"CATCHUP_AM\",\n  CATCHUPPM = \"CATCHUP_PM\",\n  LUNCH = \"LUNCH\",\n  FOCUS = \"FOCUS\",\n  TRAVELPRE = \"TRAVEL_PRE\",\n  TRAVELPOST = \"TRAVEL_POST\",\n  CONBUF = \"CONBUF\",\n}\n\nexport enum AssistStatus {\n  CONTROLLED = \"CONTROLLED\",\n  RELEASED = \"RELEASED\",\n  ARCHIVED = \"ARCHIVED\",\n}\n\nexport enum LockState {\n  MANUALLYLOCKED = \"MANUALLY_LOCKED\",\n  ADJUSTED = \"ADJUSTED\",\n  UPCOMINGWINDOW = \"UPCOMING_WINDOW\",\n  MANUALLYUNLOCKED = \"MANUALLY_UNLOCKED\",\n  DELETED = \"DELETED\",\n  DECLINED = \"DECLINED\",\n  INTHEPAST = \"IN_THE_PAST\",\n}\n\nexport interface AssistPolicyOverride {\n  windowStart: string;\n  idealTime: string;\n  windowEnd: string;\n  durationMin: number;\n  durationMax: number;\n  forceDefend: boolean;\n}\n\nexport enum RecurringAssignmentType {\n  ONEONONE = \"ONE_ON_ONE\",\n  DAILYHABIT = \"DAILY_HABIT\",\n  TASK = \"TASK\",\n}\n\nexport interface AssistDetails {\n  type?: AssistType;\n  customHabit?: boolean;\n  habitOrTask?: boolean;\n  task?: boolean;\n  conferenceBuffer?: boolean;\n  status?: AssistStatus;\n\n  /** The source event id for a travel assist event. */\n  travelNewEventId?: string | null;\n\n  /** The source event id for a conference (decompression time) event. */\n  conferenceEventId?: string | null;\n  lastControlledUpdate?: string;\n  lastControlledHash?: number;\n  defended?: boolean;\n  pinned?: boolean;\n  lockState?: LockState | null;\n  dailyHabitId?: number | null;\n  taskId?: number | null;\n  taskIndex?: number | null;\n  policyOverride?: AssistPolicyOverride | null;\n  lastManualAdjustment?: string;\n  recurringAssignmentType?: RecurringAssignmentType;\n  eventType?: ReclaimEventType;\n  assistReferenceValid?: boolean;\n}\n\nexport interface Event {\n  allocatedTimeChunks: number;\n  assist?: AssistDetails;\n  sourceDetails?: {\n    calendarId: number;\n    eventId: string;\n    etag: string;\n    writable: boolean;\n    eventKey: string;\n    base64Id: string;\n    url: string;\n    title: string;\n  };\n  calendarId: number;\n  category: string;\n  color:\n    | \"NONE\"\n    | \"LAVENDER\"\n    | \"SAGE\"\n    | \"GRAPE\"\n    | \"FLAMINGO\"\n    | \"BANANA\"\n    | \"TANGERINE\"\n    | \"PEACOCK\"\n    | \"GRAPHITE\"\n    | \"BLUEBERRY\"\n    | \"BASIL\"\n    | \"TOMATO\";\n  conferenceCall: boolean;\n  etag: string;\n  eventEnd: string;\n  eventId: string;\n  eventStart: string;\n  free: boolean;\n  key: string;\n  numAttendees: number;\n  onlineMeetingUrl: string;\n  organizer: string;\n  personalSync: boolean;\n  private: boolean;\n  public: boolean;\n  published: boolean;\n  reclaimEventType: string;\n  reclaimManaged: boolean;\n  recurring: boolean;\n  recurringException: boolean;\n  recurringInstance: boolean;\n  requiresTravel: boolean;\n  rsvpStatus: EventResponseStatusType;\n  scoredType: string;\n  status: string;\n  subType: string;\n  timeChunks: number;\n  title: string;\n  titleSeenByOthers: string;\n  type: string;\n  underAssistControl: boolean;\n  updated: string;\n  version: string;\n}\n\nexport type TaskStatus = \"NEW\" | \"SCHEDULED\" | \"IN_PROGRESS\" | \"COMPLETE\" | \"CANCELLED\" | \"ARCHIVED\";\n\nexport interface Task {\n  id: number;\n  title: string;\n  notes: string;\n  eventCategory: string;\n  eventSubType: string;\n  status: TaskStatus;\n  timeChunksRequired: number;\n  timeChunksSpent: number;\n  timeChunksRemaining: number;\n  minChunkSize: number;\n  maxChunkSize: number;\n  alwaysPrivate: boolean;\n  deleted: boolean;\n  index: number;\n  due: string;\n  created: string;\n  updated: string;\n  finished: string;\n  snoozeUntil: string;\n  adjusted: boolean;\n  atRisk: boolean;\n  priority: string;\n  onDeck: boolean;\n  instances: Array<{\n    taskId: number;\n    eventId: string;\n    eventKey: string;\n    status: string;\n    start: string;\n    end: string;\n    index: number;\n    pinned: boolean;\n  }>;\n  timeSchemeId: string;\n  type: string;\n  recurringAssignmentType: string;\n}\n\n\nWhen loadevents is called inside of mycalendar, it should check if a task is scheduled, if yes it should add 30 minutes to it"}
+INFO [2023-11-02T11:46:54.444Z]: question_start
+INFO [2023-11-02T11:46:54.445Z]: {"prompt":"When loadevents is called inside of mycalendar, it should check if a task is scheduled, if yes it should add 30 minutes to it using the addtime function from usetasks"}
+INFO [2023-11-02T11:46:55.673Z]: tool_selected
+INFO [2023-11-02T11:46:55.673Z]: {"tool":"understand"}
+INFO [2023-11-02T11:47:38.978Z]: question_success
+INFO [2023-11-02T11:47:38.978Z]: {"prompt":"When loadevents is called inside of mycalendar, it should check if a task is scheduled, if yes it should add 30 minutes to it using the addtime function from usetasks"}
+INFO [2023-11-02T11:56:22.747Z]: project_reinitialize_start
+INFO [2023-11-02T11:56:22.747Z]: {}
+INFO [2023-11-02T11:56:22.804Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T11:56:22.805Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T11:56:22.805Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T11:56:22.829Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T11:56:22.829Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:56:22.829Z]: {"language":"TSX"}
+INFO [2023-11-02T11:56:22.906Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:56:22.907Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:56:23.031Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:56:23.031Z]: {"language":"TSX","percent":100.34843205574913,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:56:23.032Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:56:23.032Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T11:56:23.032Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T11:56:23.032Z]: {"language":"TSX"}
+INFO [2023-11-02T11:56:23.032Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T11:56:23.842Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T11:56:23.842Z]: {"length":2}
+INFO [2023-11-02T11:56:23.843Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T11:56:23.844Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T11:56:23.844Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T11:56:23.844Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":2,"deleted":2},"index":333}
+INFO [2023-11-02T11:56:23.844Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T11:56:23.844Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T11:56:23.844Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T11:56:23.844Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T11:56:23.845Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T11:56:23.868Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T11:56:23.869Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T11:56:23.869Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T11:56:23.869Z]: {"language":"TSX"}
+INFO [2023-11-02T11:56:23.869Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T11:56:23.869Z]: {"resuts":2}
+INFO [2023-11-02T11:56:24.141Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T11:56:24.141Z]: {"resuts":2}
+INFO [2023-11-02T11:56:24.145Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T11:56:24.161Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T11:56:24.164Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T11:56:24.164Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T11:56:24.172Z]: project_reinitialize_success
+INFO [2023-11-02T11:56:24.172Z]: {}
+INFO [2023-11-02T11:58:19.268Z]: project_reinitialize_start
+INFO [2023-11-02T11:58:19.268Z]: {}
+INFO [2023-11-02T11:58:19.328Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T11:58:19.328Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T11:58:19.328Z]: {"added":3,"deleted":2}
+INFO [2023-11-02T11:58:19.333Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T11:58:19.333Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:58:19.333Z]: {"language":"TSX"}
+INFO [2023-11-02T11:58:19.388Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:58:19.388Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:58:19.521Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:58:19.521Z]: {"language":"TSX","percent":100.32041012495996,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:58:19.522Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:58:19.522Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T11:58:19.522Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T11:58:19.522Z]: {"language":"TSX"}
+INFO [2023-11-02T11:58:19.522Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T11:58:20.322Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T11:58:20.322Z]: {"length":3}
+INFO [2023-11-02T11:58:20.323Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T11:58:20.323Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T11:58:20.323Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T11:58:20.323Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":3,"deleted":2},"index":335}
+INFO [2023-11-02T11:58:20.323Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T11:58:20.323Z]: {"added":3,"deleted":2}
+INFO [2023-11-02T11:58:20.323Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T11:58:20.323Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T11:58:20.323Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T11:58:20.328Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T11:58:20.329Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T11:58:20.329Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T11:58:20.329Z]: {"language":"TSX"}
+INFO [2023-11-02T11:58:20.329Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T11:58:20.329Z]: {"resuts":3}
+INFO [2023-11-02T11:58:20.545Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T11:58:20.546Z]: {"resuts":3}
+INFO [2023-11-02T11:58:20.549Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T11:58:20.563Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T11:58:20.569Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T11:58:20.571Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T11:58:20.577Z]: project_reinitialize_success
+INFO [2023-11-02T11:58:20.577Z]: {}
+INFO [2023-11-02T11:58:48.073Z]: project_reinitialize_start
+INFO [2023-11-02T11:58:48.074Z]: {}
+INFO [2023-11-02T11:58:48.132Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T11:58:48.132Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T11:58:48.132Z]: {"added":2,"deleted":3}
+INFO [2023-11-02T11:58:48.137Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T11:58:48.137Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:58:48.137Z]: {"language":"TSX"}
+INFO [2023-11-02T11:58:48.181Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T11:58:48.181Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:58:48.305Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:58:48.305Z]: {"language":"TSX","percent":100.29797377830751,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T11:58:48.307Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T11:58:48.307Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T11:58:48.307Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T11:58:48.307Z]: {"language":"TSX"}
+INFO [2023-11-02T11:58:48.307Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T11:58:49.173Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T11:58:49.173Z]: {"length":2}
+INFO [2023-11-02T11:58:49.173Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T11:58:49.174Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T11:58:49.174Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T11:58:49.174Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":2,"deleted":3},"index":338}
+INFO [2023-11-02T11:58:49.174Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T11:58:49.174Z]: {"added":2,"deleted":3}
+INFO [2023-11-02T11:58:49.174Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T11:58:49.174Z]: {"embeddingsToDelete":3}
+INFO [2023-11-02T11:58:49.174Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T11:58:49.186Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T11:58:49.186Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T11:58:49.186Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T11:58:49.186Z]: {"language":"TSX"}
+INFO [2023-11-02T11:58:49.186Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T11:58:49.186Z]: {"resuts":2}
+INFO [2023-11-02T11:58:49.361Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T11:58:49.362Z]: {"resuts":2}
+INFO [2023-11-02T11:58:49.362Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T11:58:49.362Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T11:58:49.374Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T11:58:49.377Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T11:58:49.384Z]: project_reinitialize_success
+INFO [2023-11-02T11:58:49.384Z]: {}
+INFO [2023-11-02T12:04:51.584Z]: project_reinitialize_start
+INFO [2023-11-02T12:04:51.584Z]: {}
+INFO [2023-11-02T12:04:51.627Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:04:51.627Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:04:51.627Z]: {"added":5,"deleted":2}
+INFO [2023-11-02T12:04:51.633Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:04:51.633Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:04:51.633Z]: {"language":"TSX"}
+INFO [2023-11-02T12:04:51.685Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:04:51.685Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:04:51.816Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:04:51.817Z]: {"language":"TSX","percent":100.2771618625277,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:04:51.817Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:04:51.817Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:04:51.817Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:04:51.817Z]: {"language":"TSX"}
+INFO [2023-11-02T12:04:51.817Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:04:52.824Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:04:52.825Z]: {"length":5}
+INFO [2023-11-02T12:04:52.825Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:04:52.825Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:04:52.825Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:04:52.825Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":5,"deleted":2},"index":340}
+INFO [2023-11-02T12:04:52.825Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:04:52.825Z]: {"added":5,"deleted":2}
+INFO [2023-11-02T12:04:52.825Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:04:52.825Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T12:04:52.825Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:04:52.836Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:04:52.836Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:04:52.836Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:04:52.836Z]: {"language":"TSX"}
+INFO [2023-11-02T12:04:52.836Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:04:52.836Z]: {"resuts":5}
+INFO [2023-11-02T12:04:53.014Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:04:53.046Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:04:53.046Z]: {"resuts":5}
+INFO [2023-11-02T12:04:53.048Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:04:53.049Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:04:53.049Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:04:53.055Z]: project_reinitialize_success
+INFO [2023-11-02T12:04:53.055Z]: {}
+INFO [2023-11-02T12:05:40.251Z]: project_reinitialize_start
+INFO [2023-11-02T12:05:40.251Z]: {}
+INFO [2023-11-02T12:05:40.290Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:05:40.291Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:05:40.291Z]: {"added":7,"deleted":5}
+INFO [2023-11-02T12:05:40.297Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:05:40.297Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:05:40.297Z]: {"language":"TSX"}
+INFO [2023-11-02T12:05:40.351Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:05:40.352Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:05:40.499Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:05:40.499Z]: {"language":"TSX","percent":100.25819777949908,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:05:40.499Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:05:40.499Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:05:40.499Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:05:40.499Z]: {"language":"TSX"}
+INFO [2023-11-02T12:05:40.500Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:05:41.471Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:05:41.471Z]: {"length":7}
+INFO [2023-11-02T12:05:41.472Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:05:41.472Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:05:41.472Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:05:41.472Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":7,"deleted":5},"index":345}
+INFO [2023-11-02T12:05:41.472Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:05:41.472Z]: {"added":7,"deleted":5}
+INFO [2023-11-02T12:05:41.472Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:05:41.472Z]: {"embeddingsToDelete":5}
+INFO [2023-11-02T12:05:41.472Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:05:41.486Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:05:41.486Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:05:41.486Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:05:41.486Z]: {"language":"TSX"}
+INFO [2023-11-02T12:05:41.486Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:05:41.486Z]: {"resuts":7}
+INFO [2023-11-02T12:05:41.694Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:05:41.696Z]: {"resuts":7}
+INFO [2023-11-02T12:05:41.698Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:05:41.705Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:05:41.725Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:05:41.726Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:05:41.737Z]: project_reinitialize_success
+INFO [2023-11-02T12:05:41.737Z]: {}
+INFO [2023-11-02T12:06:00.185Z]: project_reinitialize_start
+INFO [2023-11-02T12:06:00.186Z]: {}
+INFO [2023-11-02T12:06:00.235Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:06:00.236Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:06:00.236Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:06:00.242Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:06:00.243Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:06:00.243Z]: {"language":"TSX"}
+INFO [2023-11-02T12:06:00.304Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:06:00.304Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:06:00.445Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:06:00.445Z]: {"language":"TSX","percent":100.24160425223482,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:06:00.445Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:06:00.445Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:06:00.446Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:06:00.446Z]: {"language":"TSX"}
+INFO [2023-11-02T12:06:00.446Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:06:00.963Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:06:00.965Z]: {"length":1}
+INFO [2023-11-02T12:06:00.965Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:06:00.965Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:06:00.965Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:06:00.965Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":1},"index":352}
+INFO [2023-11-02T12:06:00.965Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:06:00.965Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:06:00.965Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:06:00.965Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:06:00.965Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:06:00.980Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:06:00.980Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:06:00.980Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:06:00.980Z]: {"language":"TSX"}
+INFO [2023-11-02T12:06:00.980Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:06:00.980Z]: {"resuts":1}
+INFO [2023-11-02T12:06:01.135Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:06:01.165Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:06:01.165Z]: {"resuts":1}
+INFO [2023-11-02T12:06:01.165Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:06:01.168Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:06:01.170Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:06:01.176Z]: project_reinitialize_success
+INFO [2023-11-02T12:06:01.177Z]: {}
+INFO [2023-11-02T12:06:10.256Z]: project_reinitialize_start
+INFO [2023-11-02T12:06:10.256Z]: {}
+INFO [2023-11-02T12:06:10.319Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:06:10.319Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:06:10.319Z]: {"added":1,"deleted":3}
+INFO [2023-11-02T12:06:10.325Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:06:10.326Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:06:10.326Z]: {"language":"TSX"}
+INFO [2023-11-02T12:06:10.367Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:06:10.368Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:06:10.511Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:06:10.511Z]: {"language":"TSX","percent":100.22768670309654,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:06:10.511Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:06:10.511Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:06:10.511Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:06:10.511Z]: {"language":"TSX"}
+INFO [2023-11-02T12:06:10.511Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:06:11.000Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:06:11.001Z]: {"length":1}
+INFO [2023-11-02T12:06:11.001Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:06:11.002Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:06:11.002Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:06:11.002Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":3},"index":353}
+INFO [2023-11-02T12:06:11.002Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:06:11.002Z]: {"added":1,"deleted":3}
+INFO [2023-11-02T12:06:11.002Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:06:11.002Z]: {"embeddingsToDelete":3}
+INFO [2023-11-02T12:06:11.002Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:06:11.018Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:06:11.019Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:06:11.019Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:06:11.019Z]: {"language":"TSX"}
+INFO [2023-11-02T12:06:11.019Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:06:11.019Z]: {"resuts":1}
+INFO [2023-11-02T12:06:11.202Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:06:11.203Z]: {"resuts":1}
+INFO [2023-11-02T12:06:11.221Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:06:11.222Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:06:11.233Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:06:11.234Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:06:11.237Z]: project_reinitialize_success
+INFO [2023-11-02T12:06:11.237Z]: {}
+INFO [2023-11-02T12:09:09.710Z]: project_reinitialize_start
+INFO [2023-11-02T12:09:09.711Z]: {}
+INFO [2023-11-02T12:09:09.755Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:09:09.756Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:09:09.756Z]: {"added":2,"deleted":5}
+INFO [2023-11-02T12:09:09.761Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:09:09.761Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:09:09.761Z]: {"language":"TSX"}
+INFO [2023-11-02T12:09:09.841Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:09:09.842Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:09:09.993Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:09:09.994Z]: {"language":"TSX","percent":100.21612275772638,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:09:09.994Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:09:09.994Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:09:09.994Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:09:09.994Z]: {"language":"TSX"}
+INFO [2023-11-02T12:09:09.994Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:09:10.723Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:09:10.723Z]: {"length":2}
+INFO [2023-11-02T12:09:10.723Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:09:10.723Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:09:10.723Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:09:10.723Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":2,"deleted":5},"index":354}
+INFO [2023-11-02T12:09:10.724Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:09:10.724Z]: {"added":2,"deleted":5}
+INFO [2023-11-02T12:09:10.724Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:09:10.724Z]: {"embeddingsToDelete":5}
+INFO [2023-11-02T12:09:10.724Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:09:10.738Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:09:10.738Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:09:10.738Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:09:10.738Z]: {"language":"TSX"}
+INFO [2023-11-02T12:09:10.739Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:09:10.739Z]: {"resuts":2}
+INFO [2023-11-02T12:09:10.885Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:09:10.914Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:09:10.914Z]: {"resuts":2}
+INFO [2023-11-02T12:09:10.924Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:09:10.926Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:09:10.929Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:09:10.933Z]: project_reinitialize_success
+INFO [2023-11-02T12:09:10.933Z]: {}
+INFO [2023-11-02T12:11:58.919Z]: project_reinitialize_start
+INFO [2023-11-02T12:11:58.920Z]: {}
+INFO [2023-11-02T12:11:58.973Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:11:58.973Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:11:58.973Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:11:58.979Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:11:58.979Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:11:58.979Z]: {"language":"TSX"}
+INFO [2023-11-02T12:11:59.029Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:11:59.029Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:11:59.149Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:11:59.149Z]: {"language":"TSX","percent":100.20563438206868,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:11:59.149Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:11:59.149Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:11:59.149Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:11:59.149Z]: {"language":"TSX"}
+INFO [2023-11-02T12:11:59.149Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:11:59.720Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:11:59.721Z]: {"length":1}
+INFO [2023-11-02T12:11:59.722Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:11:59.722Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:11:59.722Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:11:59.722Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":1},"index":356}
+INFO [2023-11-02T12:11:59.722Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:11:59.722Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:11:59.722Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:11:59.722Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:11:59.722Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:11:59.733Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:11:59.733Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:11:59.733Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:11:59.733Z]: {"language":"TSX"}
+INFO [2023-11-02T12:11:59.734Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:11:59.734Z]: {"resuts":1}
+INFO [2023-11-02T12:11:59.893Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:11:59.937Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:11:59.937Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:11:59.937Z]: {"resuts":1}
+INFO [2023-11-02T12:11:59.940Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:11:59.941Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:11:59.946Z]: project_reinitialize_success
+INFO [2023-11-02T12:11:59.946Z]: {}
+INFO [2023-11-02T12:15:14.707Z]: project_reinitialize_start
+INFO [2023-11-02T12:15:14.708Z]: {}
+INFO [2023-11-02T12:15:14.751Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:15:14.751Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:15:14.751Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:15:14.759Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:15:14.759Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:15:14.759Z]: {"language":"TSX"}
+INFO [2023-11-02T12:15:14.825Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:15:14.826Z]: {"language":"TSX","percent":100,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:15:14.947Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:15:14.947Z]: {"language":"TSX","percent":100.19615535504118,"file":"src/hooks/useEvent.tsx"}
+INFO [2023-11-02T12:15:14.947Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:15:14.947Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:15:14.947Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:15:14.947Z]: {"language":"TSX"}
+INFO [2023-11-02T12:15:14.947Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:15:15.621Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:15:15.621Z]: {"length":1}
+INFO [2023-11-02T12:15:15.622Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:15:15.622Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:15:15.622Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:15:15.622Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":1},"index":357}
+INFO [2023-11-02T12:15:15.622Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:15:15.622Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:15:15.622Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:15:15.622Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:15:15.622Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:15:15.630Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:15:15.630Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:15:15.630Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:15:15.630Z]: {"language":"TSX"}
+INFO [2023-11-02T12:15:15.631Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:15:15.631Z]: {"resuts":1}
+INFO [2023-11-02T12:15:15.829Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:15:15.830Z]: {"resuts":1}
+INFO [2023-11-02T12:15:15.842Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:15:15.850Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:15:15.852Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:15:15.852Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:15:15.857Z]: project_reinitialize_success
+INFO [2023-11-02T12:15:15.857Z]: {}
+INFO [2023-11-02T12:16:19.091Z]: project_reinitialize_start
+INFO [2023-11-02T12:16:19.092Z]: {}
+INFO [2023-11-02T12:16:19.130Z]: project_reinitialize_success
+INFO [2023-11-02T12:16:19.130Z]: {}
+INFO [2023-11-02T12:16:59.929Z]: project_reinitialize_start
+INFO [2023-11-02T12:16:59.930Z]: {}
+INFO [2023-11-02T12:16:59.973Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:16:59.973Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:16:59.973Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:16:59.977Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:16:59.977Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:16:59.977Z]: {"language":"TSX"}
+INFO [2023-11-02T12:17:00.037Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:17:00.037Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:17:00.128Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:17:00.128Z]: {"language":"TSX","percent":100.19051247856734,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:17:00.128Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:17:00.128Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:17:00.128Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:17:00.128Z]: {"language":"TSX"}
+INFO [2023-11-02T12:17:00.128Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:17:00.802Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:17:00.804Z]: {"length":1}
+INFO [2023-11-02T12:17:00.805Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:17:00.805Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:17:00.805Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:17:00.805Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":1},"index":358}
+INFO [2023-11-02T12:17:00.805Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:17:00.805Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:17:00.805Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:17:00.805Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:17:00.805Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:17:00.815Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:17:00.815Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:17:00.815Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:17:00.815Z]: {"language":"TSX"}
+INFO [2023-11-02T12:17:00.816Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:17:00.816Z]: {"resuts":1}
+INFO [2023-11-02T12:17:00.968Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:17:00.992Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:17:00.992Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:17:01.000Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:17:01.000Z]: {"resuts":1}
+INFO [2023-11-02T12:17:01.000Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:17:01.003Z]: project_reinitialize_success
+INFO [2023-11-02T12:17:01.003Z]: {}
+INFO [2023-11-02T12:17:32.310Z]: project_reinitialize_start
+INFO [2023-11-02T12:17:32.311Z]: {}
+INFO [2023-11-02T12:17:32.352Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:17:32.352Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:17:32.352Z]: {"added":15,"deleted":1}
+INFO [2023-11-02T12:17:32.356Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:17:32.356Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:17:32.356Z]: {"language":"TSX"}
+INFO [2023-11-02T12:17:32.397Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:17:32.397Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:17:32.473Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:17:32.473Z]: {"language":"TSX","percent":100.18470631695604,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:17:32.473Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:17:32.473Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:17:32.473Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:17:32.473Z]: {"language":"TSX"}
+INFO [2023-11-02T12:17:32.473Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:17:33.492Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:17:33.493Z]: {"length":15}
+INFO [2023-11-02T12:17:33.493Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:17:33.493Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:17:33.493Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:17:33.493Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":15,"deleted":1},"index":359}
+INFO [2023-11-02T12:17:33.493Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:17:33.493Z]: {"added":15,"deleted":1}
+INFO [2023-11-02T12:17:33.493Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:17:33.493Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:17:33.493Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:17:33.498Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:17:33.498Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:17:33.498Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:17:33.498Z]: {"language":"TSX"}
+INFO [2023-11-02T12:17:33.498Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:17:33.498Z]: {"resuts":15}
+INFO [2023-11-02T12:17:33.676Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:17:33.678Z]: {"resuts":15}
+INFO [2023-11-02T12:17:33.689Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:17:33.693Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:17:33.698Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:17:33.700Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:17:33.704Z]: project_reinitialize_success
+INFO [2023-11-02T12:17:33.704Z]: {}
+INFO [2023-11-02T12:18:01.557Z]: project_reinitialize_start
+INFO [2023-11-02T12:18:01.558Z]: {}
+INFO [2023-11-02T12:18:01.609Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:18:01.609Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:18:01.609Z]: {"added":1,"deleted":15}
+INFO [2023-11-02T12:18:01.613Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:18:01.614Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:18:01.614Z]: {"language":"TSX"}
+INFO [2023-11-02T12:18:01.651Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:18:01.652Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:18:01.733Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:18:01.734Z]: {"language":"TSX","percent":100.17969451931717,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:18:01.734Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:18:01.734Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:18:01.734Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:18:01.734Z]: {"language":"TSX"}
+INFO [2023-11-02T12:18:01.734Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:18:02.243Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:18:02.244Z]: {"length":1}
+INFO [2023-11-02T12:18:02.244Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:18:02.244Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:18:02.244Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:18:02.244Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":15},"index":374}
+INFO [2023-11-02T12:18:02.244Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:18:02.244Z]: {"added":1,"deleted":15}
+INFO [2023-11-02T12:18:02.244Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:18:02.244Z]: {"embeddingsToDelete":15}
+INFO [2023-11-02T12:18:02.244Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:18:02.272Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:18:02.272Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:18:02.273Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:18:02.273Z]: {"language":"TSX"}
+INFO [2023-11-02T12:18:02.273Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:18:02.273Z]: {"resuts":1}
+INFO [2023-11-02T12:18:02.427Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:18:02.430Z]: {"resuts":1}
+INFO [2023-11-02T12:18:02.440Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:18:02.450Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:18:02.469Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:18:02.471Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:18:02.476Z]: project_reinitialize_success
+INFO [2023-11-02T12:18:02.476Z]: {}
+INFO [2023-11-02T12:20:55.976Z]: project_reinitialize_start
+INFO [2023-11-02T12:20:55.977Z]: {}
+INFO [2023-11-02T12:20:56.024Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:20:56.024Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:20:56.024Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:20:56.028Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:20:56.028Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:20:56.028Z]: {"language":"TSX"}
+INFO [2023-11-02T12:20:56.054Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:20:56.055Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:20:56.139Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:20:56.139Z]: {"language":"TSX","percent":100.17494751574527,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:20:56.139Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:20:56.139Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:20:56.139Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:20:56.139Z]: {"language":"TSX"}
+INFO [2023-11-02T12:20:56.139Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:20:56.748Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:20:56.750Z]: {"length":1}
+INFO [2023-11-02T12:20:56.750Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:20:56.750Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:20:56.750Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:20:56.750Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":1,"deleted":1},"index":375}
+INFO [2023-11-02T12:20:56.750Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:20:56.750Z]: {"added":1,"deleted":1}
+INFO [2023-11-02T12:20:56.750Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:20:56.750Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:20:56.750Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:20:56.762Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:20:56.762Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:20:56.762Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:20:56.762Z]: {"language":"TSX"}
+INFO [2023-11-02T12:20:56.762Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:20:56.762Z]: {"resuts":1}
+INFO [2023-11-02T12:20:56.917Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:20:56.929Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:20:56.946Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:20:56.950Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:20:56.951Z]: {"resuts":1}
+INFO [2023-11-02T12:20:56.951Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:20:56.954Z]: project_reinitialize_success
+INFO [2023-11-02T12:20:56.954Z]: {}
+INFO [2023-11-02T12:24:03.992Z]: project_reinitialize_start
+INFO [2023-11-02T12:24:03.993Z]: {}
+INFO [2023-11-02T12:24:04.035Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:24:04.035Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:24:04.035Z]: {"added":3,"deleted":1}
+INFO [2023-11-02T12:24:04.040Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:24:04.040Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:24:04.040Z]: {"language":"TSX"}
+INFO [2023-11-02T12:24:04.080Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:24:04.081Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:24:04.162Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:24:04.163Z]: {"language":"TSX","percent":100.16995241332427,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:24:04.163Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:24:04.163Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:24:04.163Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:24:04.163Z]: {"language":"TSX"}
+INFO [2023-11-02T12:24:04.163Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:24:05.069Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:24:05.071Z]: {"length":3}
+INFO [2023-11-02T12:24:05.071Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:24:05.071Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:24:05.071Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:24:05.071Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":3,"deleted":1},"index":376}
+INFO [2023-11-02T12:24:05.071Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:24:05.071Z]: {"added":3,"deleted":1}
+INFO [2023-11-02T12:24:05.071Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:24:05.071Z]: {"embeddingsToDelete":1}
+INFO [2023-11-02T12:24:05.071Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:24:05.080Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:24:05.080Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:24:05.080Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:24:05.080Z]: {"language":"TSX"}
+INFO [2023-11-02T12:24:05.081Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:24:05.081Z]: {"resuts":3}
+INFO [2023-11-02T12:24:05.217Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:24:05.235Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:24:05.246Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:24:05.259Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:24:05.260Z]: {"resuts":3}
+INFO [2023-11-02T12:24:05.262Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:24:05.265Z]: project_reinitialize_success
+INFO [2023-11-02T12:24:05.265Z]: {}
+INFO [2023-11-02T12:26:24.787Z]: project_reinitialize_start
+INFO [2023-11-02T12:26:24.788Z]: {}
+INFO [2023-11-02T12:26:24.871Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:26:24.872Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:26:24.872Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T12:26:24.876Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:26:24.876Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:26:24.876Z]: {"language":"TSX"}
+INFO [2023-11-02T12:26:24.921Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:26:24.922Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:26:25.062Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:26:25.062Z]: {"language":"TSX","percent":100.16518004625041,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:26:25.062Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:26:25.062Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:26:25.062Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:26:25.062Z]: {"language":"TSX"}
+INFO [2023-11-02T12:26:25.062Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:26:25.705Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:26:25.707Z]: {"length":2}
+INFO [2023-11-02T12:26:25.707Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:26:25.707Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:26:25.707Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:26:25.707Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":2,"deleted":2},"index":379}
+INFO [2023-11-02T12:26:25.708Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:26:25.708Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T12:26:25.708Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:26:25.708Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T12:26:25.708Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:26:25.721Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:26:25.721Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:26:25.721Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:26:25.721Z]: {"language":"TSX"}
+INFO [2023-11-02T12:26:25.721Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:26:25.721Z]: {"resuts":2}
+INFO [2023-11-02T12:26:25.863Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:26:25.896Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:26:25.898Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:26:25.898Z]: {"resuts":2}
+INFO [2023-11-02T12:26:25.900Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:26:25.900Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:26:25.902Z]: project_reinitialize_success
+INFO [2023-11-02T12:26:25.902Z]: {}
+INFO [2023-11-02T12:26:43.946Z]: project_reinitialize_start
+INFO [2023-11-02T12:26:43.947Z]: {}
+INFO [2023-11-02T12:26:44.007Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:26:44.007Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:26:44.007Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T12:26:44.014Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:26:44.014Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:26:44.014Z]: {"language":"TSX"}
+INFO [2023-11-02T12:26:44.066Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:26:44.072Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:26:44.179Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:26:44.179Z]: {"language":"TSX","percent":100.16053941242575,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:26:44.179Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:26:44.179Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:26:44.179Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:26:44.179Z]: {"language":"TSX"}
+INFO [2023-11-02T12:26:44.179Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:26:45.019Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:26:45.020Z]: {"length":2}
+INFO [2023-11-02T12:26:45.020Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:26:45.020Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:26:45.020Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:26:45.020Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":2,"deleted":2},"index":381}
+INFO [2023-11-02T12:26:45.020Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:26:45.020Z]: {"added":2,"deleted":2}
+INFO [2023-11-02T12:26:45.020Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:26:45.020Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T12:26:45.020Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:26:45.029Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:26:45.029Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:26:45.030Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:26:45.030Z]: {"language":"TSX"}
+INFO [2023-11-02T12:26:45.030Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:26:45.030Z]: {"resuts":2}
+INFO [2023-11-02T12:26:45.173Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:26:45.173Z]: {"resuts":2}
+INFO [2023-11-02T12:26:45.179Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:26:45.185Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:26:45.209Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:26:45.209Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:26:45.214Z]: project_reinitialize_success
+INFO [2023-11-02T12:26:45.214Z]: {}
+INFO [2023-11-02T12:27:02.866Z]: project_reinitialize_start
+INFO [2023-11-02T12:27:02.867Z]: {}
+INFO [2023-11-02T12:27:02.918Z]: [Engine.indexCode] Preindexing with graph
+INFO [2023-11-02T12:27:02.918Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2023-11-02T12:27:02.918Z]: {"added":3,"deleted":2}
+INFO [2023-11-02T12:27:02.923Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2023-11-02T12:27:02.923Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:27:02.923Z]: {"language":"TSX"}
+INFO [2023-11-02T12:27:02.956Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2023-11-02T12:27:02.956Z]: {"language":"TSX","percent":100,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:27:03.055Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:27:03.056Z]: {"language":"TSX","percent":100.15617679212869,"file":"src/hooks/useTask.tsx"}
+INFO [2023-11-02T12:27:03.056Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2023-11-02T12:27:03.056Z]: {"language":"TSX","percent":100}
+INFO [2023-11-02T12:27:03.056Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2023-11-02T12:27:03.056Z]: {"language":"TSX"}
+INFO [2023-11-02T12:27:03.056Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2023-11-02T12:27:03.734Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2023-11-02T12:27:03.735Z]: {"length":3}
+INFO [2023-11-02T12:27:03.736Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2023-11-02T12:27:03.736Z]: [Engine.indexCode] Indexing code
+INFO [2023-11-02T12:27:03.736Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2023-11-02T12:27:03.736Z]: {"files":{"added":0,"changed":1,"deleted":0},"components":{"added":3,"deleted":2},"index":383}
+INFO [2023-11-02T12:27:03.736Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2023-11-02T12:27:03.736Z]: {"added":3,"deleted":2}
+INFO [2023-11-02T12:27:03.736Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2023-11-02T12:27:03.736Z]: {"embeddingsToDelete":2}
+INFO [2023-11-02T12:27:03.736Z]: [KeywordCodeSearch.index] Indexing
+INFO [2023-11-02T12:27:03.745Z]: [KeywordCodeSearch.index] Saving index
+INFO [2023-11-02T12:27:03.745Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2023-11-02T12:27:03.745Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2023-11-02T12:27:03.745Z]: {"language":"TSX"}
+INFO [2023-11-02T12:27:03.746Z]: [SemanticCodeSearch.index] Writing components
+INFO [2023-11-02T12:27:03.746Z]: {"resuts":3}
+INFO [2023-11-02T12:27:03.922Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2023-11-02T12:27:03.927Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2023-11-02T12:27:03.927Z]: {"resuts":3}
+INFO [2023-11-02T12:27:03.927Z]: [KeywordCodeSearch.index] Indexed
+INFO [2023-11-02T12:27:03.931Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2023-11-02T12:27:03.933Z]: [Engine.indexCode] Indexed code
+INFO [2023-11-02T12:27:03.941Z]: project_reinitialize_success
+INFO [2023-11-02T12:27:03.941Z]: {}

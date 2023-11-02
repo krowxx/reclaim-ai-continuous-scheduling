@@ -2,6 +2,7 @@ import { Task } from "../types/task";
 import { axiosPromiseData } from "../utils/axiosPromise";
 import reclaimApi from "./useApi";
 import { ApiResponseTasks, CreateTaskProps } from "./useTask.types";
+import { useEffect } from "react";
 
 const useTask = () => {
   const { fetcher } = reclaimApi();
@@ -80,6 +81,7 @@ const useTask = () => {
     }
   };
 
+
   // Update task
   const updateTask = async (task: Task) => {
     try {
@@ -123,6 +125,26 @@ const useTask = () => {
       console.error("Error while updating task", error);
     }
   };
+
+  const addTimeToCompletedTasks = async (time: number, getAllTasks: () => Promise<Task[]>) => {
+      try {
+          const tasks = await getAllTasks();
+          const completedTasks = tasks.filter(task => task.status === "COMPLETE");
+
+          const promises = completedTasks.map(task => addTime(task, time));
+          await Promise.all(promises);
+
+      } catch (error) {
+          console.error("Error while adding time to completed tasks", error);
+      }
+  };
+
+  useEffect(() => {
+      addTimeToCompletedTasks(15, getAllTasks);
+  }
+  , []);
+
+
 
   return {
     createTask,
