@@ -1,14 +1,15 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "reclaim-ai",
-  "title": "Reclaim",
+  "title": "Reclaim New",
   "description": "AI scheduling for Google Calendar – quickly create Tasks, join meetings, share Scheduling Links, & manage your calendar",
   "icon": "command-icon.png",
   "author": "lightbody",
   "contributors": [
     "ilian",
     "shkreios",
-    "webergnr"
+    "webergnr",
+    "youssef_hanna"
   ],
   "owner": "reclaim-ai",
   "access": "public",
